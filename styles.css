@@ -1,0 +1,15 @@
+/* Hide horizontal scrollbar track (desktop) but allow mobile to scroll */
+.no-scrollbar::-webkit-scrollbar {
+    height: 0;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  
+  /* Make the 3 small stat cards look consistent in height */
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
